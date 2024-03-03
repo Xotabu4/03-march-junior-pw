@@ -2,7 +2,7 @@ import { test, expect, Page } from '@playwright/test';
 import { doLogin } from '../steps/login';
 
 test('User can buy product', async ({ page }) => {
-  await page.goto('https://shopdemo-alex-hot.koyeb.app/');
+  await page.goto('/');
 
   await doLogin(page, 'xotabu4@gmail.com', 'xotabu4@gmail.com');
 

@@ -2,7 +2,7 @@ import { Page } from "@playwright/test";
 
 export const login = (page: Page) => ({
     async open() {
-        await page.goto('https://shopdemo-alex-hot.koyeb.app/login')
+        await page.goto('/login')
     },
     async doLogin(email: string, password: string) {
         await this.open();
