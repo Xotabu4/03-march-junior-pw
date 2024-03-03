@@ -1,0 +1,13 @@
+{
+  "name": "03-march-junior-pw",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "keywords": [],
+  "author": "Oleksandr Khotemskyi <xotabu4@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "18.18.0"
+  }
+}
